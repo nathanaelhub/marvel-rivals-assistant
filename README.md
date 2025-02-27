@@ -2,8 +2,7 @@
 
 An AI-powered assistant that helps players optimize their gameplay in Marvel Rivals by providing character information, team composition suggestions, and strategic advice.
 
-![logo](https://github.com/user-attachments/assets/075a38d1-6b24-44bd-b7de-f16296ee172e)
-
+![logo](https://github.com/user-attachments/assets/6ec06d86-0ff6-44bf-bb6b-aa1ec7fae95e)
 
 ## Overview
 
