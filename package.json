@@ -1,0 +1,23 @@
+{
+  "name": "marvel-rivals-assistant",
+  "version": "1.0.0",
+  "description": "AI Strategy Assistant for Marvel Rivals",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "convert-data": "python utils/data-converter.py"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.14.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

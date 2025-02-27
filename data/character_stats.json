@@ -1,0 +1,23 @@
+[
+  {
+    "Rank": 1,
+    "Character": "Storm",
+    "Type": "Duelist",
+    "PickRate": 3.73,
+    "WinRate": 58.11
+  },
+  {
+    "Rank": 2,
+    "Character": "Mantis",
+    "Type": "Strategist",
+    "PickRate": 10.24,
+    "WinRate": 55.65
+  },
+  {
+    "Rank": 3,
+    "Character": "Rocket Raccoon",
+    "Type": "Strategist",
+    "PickRate": 13.99,
+    "WinRate": 55.23
+  }
+]

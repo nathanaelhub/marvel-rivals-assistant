@@ -1,0 +1,11 @@
+[
+  {
+    "TeamUpName": "Ragnarok Rebirth",
+    "PrimaryHero": "Hela",
+    "SecondaryHeroes": [
+      "Loki",
+      "Thor"
+    ],
+    "Effect": "Hela gains a passive ability that allows her to resurrect one of her brothers."
+  }
+]

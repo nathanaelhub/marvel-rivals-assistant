@@ -1,0 +1,23 @@
+{
+  "GameModes": [
+    {
+      "Name": "Quickplay",
+      "Description": "Casual match mode for relaxed gameplay"
+    },
+    {
+      "Name": "Ranked Competition",
+      "Description": "Competitive ladder with multiple tiers",
+      "Tiers": [
+        "Bronze",
+        "Silver",
+        "Gold",
+        "Platinum",
+        "Diamond",
+        "Grandmaster",
+        "Celestial",
+        "Eternity",
+        "Top 500"
+      ]
+    }
+  ]
+}
