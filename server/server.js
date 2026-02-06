@@ -7,6 +7,10 @@ const { processQuestion } = require('./claude-api');
 // Load environment variables
 dotenv.config();
 
+if (!process.env.ANTHROPIC_API_KEY) {
+    console.warn('WARNING: ANTHROPIC_API_KEY is not set — /api/ask will fail. Copy .env.example to .env and add your key.');
+}
+
 const app = express();
 const port = process.env.PORT || 3000;
 
