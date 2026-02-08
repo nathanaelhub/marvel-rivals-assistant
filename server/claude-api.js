@@ -68,7 +68,7 @@ async function processQuestion(question) {
         
         // Make API call to Claude
         const response = await anthropic.messages.create({
-            model: "claude-3-7-sonnet-20250219",
+            model: "claude-sonnet-4-5",
             max_tokens: 4096,
             temperature: 0.7,
             system: enhancedPrompt,
