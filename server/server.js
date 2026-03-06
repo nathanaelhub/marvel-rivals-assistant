@@ -27,6 +27,10 @@ app.post('/api/ask', async (req, res) => {
         if (!question || typeof question !== 'string') {
             return res.status(400).json({ error: 'Invalid question format' });
         }
+
+        if (question.length > 2000) {
+            return res.status(400).json({ error: 'Question too long (max 2000 characters)' });
+        }
         
         const response = await processQuestion(question);
         res.json({ response });
