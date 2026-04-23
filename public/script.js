@@ -82,11 +82,17 @@ document.addEventListener('DOMContentLoaded', function() {
         chatHistory.scrollTop = chatHistory.scrollHeight;
     }
     
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
     function formatResponse(response) {
-        // Extract parts from XML response
-        const questionAnalysis = extractTag(response, 'question_analysis') || '';
-        const mainResponse = extractTag(response, 'main_response') || response;
-        const additionalTips = extractTag(response, 'additional_tips') || '';
+        // Extract parts from XML response, escaping before we build HTML
+        const questionAnalysis = escapeHtml(extractTag(response, 'question_analysis') || '');
+        const mainResponse = escapeHtml(extractTag(response, 'main_response') || response);
+        const additionalTips = escapeHtml(extractTag(response, 'additional_tips') || '');
         
         let html = '<div class="response-container">';
         
