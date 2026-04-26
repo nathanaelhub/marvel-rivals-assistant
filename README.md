@@ -32,7 +32,7 @@ This project creates an interactive web application that uses Claude AI to provi
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js, Express
-- **AI**: Anthropic Claude API (Claude 3.5 Sonnet)
+- **AI**: Anthropic Claude API (Claude Sonnet 4.5)
 - **Data Storage**: JSON
 
 ## Project Structure
